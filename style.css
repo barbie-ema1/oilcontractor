@@ -194,6 +194,11 @@ body{
     flex-direction: row;
     width: 100%;
 }
+
+.team-section h3{
+    color: var(--Verydarkblue);
+    margin-bottom: 2pc;
+}
 .team-pic{
     width: 100%;
 }
