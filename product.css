@@ -1,0 +1,142 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h3{
+    margin-left: 3pc;
+    margin-top: 2pc;
+    margin-bottom: 1pc;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 2pc;
+    margin-left: 3pc;
+}
+
+.firstrow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.firstflex{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(35, 77%, 62%);
+    margin-bottom: 2pc;
+}
+
+.firstflex img{
+    height: 100%;
+    width: 100%;
+}
+
+.firstflex h4{
+    background-color: hsl(35, 77%, 62%);
+    color: #fff;
+    margin: 5px 5px;
+    padding: 6px 6px;
+}
+
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.secondflex{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(35, 77%, 62%);
+    margin-bottom: 2pc;
+}
+
+.secondflex img{
+    height: 100%;
+    width: 100%;
+}
+
+.secondflex h4{
+    background-color: hsl(35, 77%, 62%);
+    color: #fff;
+    margin: 5px 5px;
+    padding: 6px 6px;
+}
+
+.thirdrow{
+    display: flex;
+    flex-direction: row;
+    width: 74%;
+    justify-content: space-between;
+}
+
+.thirdflex{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(35, 77%, 62%);
+    margin-bottom: 2pc;
+}
+
+.thirdflex img{
+    height: 100%;
+    width: 100%;
+}
+
+.thirdflex h4{
+    background-color: hsl(35, 77%, 62%);
+    color: #fff;
+    margin: 5px 5px;
+    padding: 6px 6px;
+}
+
+
+@media (max-width:1024px) {
+
+
+    .firstrow,.secondrow{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .firstflex,.secondflex{
+        width: 100%;
+        margin: 1pc 1pc;
+    }
+
+    .firstflex,.secondflex img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .thirdflex{
+        margin: 1pc 1pc;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .firstflex,.secondflex,.thirdflex{
+        margin: 0.5pc 0.5pc;
+    }
+
+}
+
+@media (max-width:425px) and (min-width:320px){
+    .firstrow,.secondrow,.thirdrow{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .thirdflex{
+        width: 100%;
+    }
+}
+

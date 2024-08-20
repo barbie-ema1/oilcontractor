@@ -1,0 +1,59 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.imagebox{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+
+.mainflex{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: 4pc;
+}
+
+.postal{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+
+}
+
+.phone{
+    margin-top: 1pc;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.contact1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+form input{
+    margin: 5px 5px;
+    padding: 7px 7px;
+    width: 70%;
+    height: 20%;
+}
