@@ -102,5 +102,8 @@ nav{
         background-color: rgb(163, 160, 160);
     }
 
-
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
 }

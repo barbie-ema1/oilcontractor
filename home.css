@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+
+:root {
+     
+    --orange: hsl(35, 77%, 62%);
+    --lightorange: hsl(35, 86%, 78%);
+    --Grayishblue: hsl(240, 3%, 74%);
+    --Darkgrayishblue: hsl(236, 13%, 42%);
+    --Verydarkblue: hsl(240, 100%, 11%);
+    --blue: hsl(236, 77%, 26%);
+
+}
+
+body{
+    font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 2.5pc;
+    margin-left: 2pc;
+    
+}
+
+.firstbox{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-left: 3pc;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.rightbox{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.rightbox img{
+    height: 65vh;
+    width: 95%;
+}
+
+
+.lbox1{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 50%;
+    justify-content: space-around;
+    margin-bottom: 1pc;
+}
+
+.leftbox1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.leftbox1 h2{
+    color: var(--blue);
+    width: 80%;
+    margin-top: 5pc;
+    letter-spacing: 2px;
+    
+}
+
+
+.leftbox2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--orange);
+    color: #fff;
+}
+
+.leftbox2 img{
+    width: 40%;
+    height: 30%;
+    margin-left: 3pc;
+    margin-top: 2pc;
+    overflow: hidden;
+}
+
+.leftbox2 h4{
+    margin-left: 1.2pc;
+    width: 90%;
+    margin-top: 2pc;
+}
+
+.leftbox3{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: #6EACDA;
+    color: #fff; 
+    
+}
+
+.leftbox3 img{
+    width: 40%;
+    height: 30%;
+    margin-left: 3pc;
+    margin-top: 2pc;
+    overflow: hidden;
+    
+}
+
+.leftbox3 h4{
+    margin-left: 1.2pc;
+    width: 80%;
+    margin-top: 2pc;
+}
+
+.secondbox{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-left: 3pc;
+    
+}
+
+.second1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.second1 h2{
+    font-size: 32px;
+    font-weight: 100;
+    width: 70%;
+}
+
+.secondbox2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.secondboxup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(184, 183, 183);
+}
+
+
+
+.secondboxdown{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.secondboxup h4{
+    text-align: justify;
+}
+
+.secondb1,.secondb2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.secondb2 h4{
+    margin-top: 1pc;
+}
+
+.secondbox3{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 3pc;
+}
+
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.secondb2 img{
+    width: 20%;
+    height:40%;
+    margin-top: 1pc;
+    margin-left: 2pc;
+}
+
+.secondb1{
+    color: var(--blue);
+
+}
+
+.secondb1 img{
+
+    height: 60%;
+}
+
+
+.secondb1:hover{
+    color: var(--Grayishblue);
+}
+.secondb1,.secondb2 h4{
+    font-size: 18px;
+}
+
+
+.num4{
+    width: 35%;
+}
+
+.secondnum{
+    color: var(--orange);
+}
+
+.secondnum:hover{
+    color:var(--Grayishblue)
+}
+
+
+.third{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-left: 3pc;
+    margin-top: 4pc;
+    margin-bottom: 3pc;
+}
+
+.third1{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.trade,.risk{
+    width: 45%;
+    margin-top: 2pc;
+
+
+}
+
+.trade h3{
+
+    font-size: 26px;
+
+}
+
+.trade p{
+    width: 85%;
+}
+
+.risk h3{
+
+    font-size: 26px;
+
+}
+
+.risk p{
+    width: 85%;
+}
+
+
+.call{
+
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.callimg{
+    width: 45%;
+}
+.callimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.log{
+    width: 45%;
+    background-color: #6EACDA;
+    color: #fff;
+    
+}
+
+.log h3{
+    margin-left: 1pc;
+    width: 70%;
+    font-size: 26px;
+}
+
+.log p{
+    margin-left: 1pc;
+    width: 70%;
+    
+}
+
+
+.geo{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 45vh;
+    background-color: var(--orange);
+    color: #fff;
+    margin-left: 1.5pc;
+}
+
+.geo img{
+    width: 75%;
+    height: 70%;
+    margin-left: 2.5pc;
+}
+
+.geo h4{
+    margin-left: 2.5pc;
+}
+
+.fourth{
+    display: flex;
+    flex: row;
+    margin-left: 3pc;
+    width: 95%;
+}
+
+.fleft{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.fleft ul{
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.fleft li{
+    line-height: 2pc;
+    font-size: 20px;
+}
+
+.fleft li:hover{
+    color: var(--Darkgrayishblue);
+    cursor: pointer;
+}
+.fright{
+    margin-top: 3pc;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.fright img{
+    height: 40%;
+    width: 45%;
+}
+
+
+@media (max-width:1024px) and (min-width:738px){
+
+    .firstbox{
+        margin-bottom: 3pc;
+    }
+    .leftbox{
+        height: 47vh;
+    }
+    .rightbox img{
+        height: 95vh;
+        width: 80vh;
+    }
+
+    .secondb1 h4{
+        margin-top: 0.2pc;
+        font-size: 22px;
+    }
+    
+
+    .secondb2 h4{
+        margin-top: 0.2pc;
+        font-size: 22px;
+    }
+
+    .secondnum h2{
+        font-size: 28px;
+    }
+
+    .secondnum p{
+        font-size: 18px;
+    }
+    .log{
+        height: fit-content;
+    }
+
+    .geo {
+        height: 48.5vh;
+        margin-left: 3pc;
+    }
+    .geo img{
+        margin-left: 1.5pc;
+    }
+
+}
+
+@media (max-width:768px) and (min-width:554px){
+
+    .firstbox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftbox{
+        width: 100%;
+        margin-bottom: 2pc;
+    }
+
+    .rightbox{
+        width: 100vh;
+        margin-left: 0.5pc;
+        margin-bottom: 8pc;
+    }
+
+    .rightbox img{
+        width: 107vh;
+        height: 60vh;
+    }
+
+    .secondbox{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .sbox{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .secondboxup p{
+        width: 57vw;
+    }
+
+    .secondbox3{
+
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+
+    }
+
+    .risk{
+        margin-left: 2pc;
+    }
+
+    .log h3{
+        font-size: 20px;
+    }
+
+    .geo{
+        margin-left: 1pc;
+    }
+
+    .geo h4{
+        margin-left: 1pc;
+    }
+
+    .fright{
+        width: 40%;
+        margin-left:2pc;
+    }
+
+    .geo img{
+        margin-left: 1pc;
+    }
+}
+
+@media (min-width:375px) and (max-width:554px){
+
+    .firstbox,.secondbox,.third,.fourth,.leftbox,.rightbox{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: space-around;
+        margin-bottom: 3pc;
+    }
+
+    .sbox,.secondboxup,.secondboxdown{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .second1{
+        width:110vw;
+        
+    }
+
+    .second1 h2{
+        font-size: 40px;
+    }
+
+    .secondb1,.secondb2{
+        width: 70vw;
+    }
+
+    .secondb2{
+        margin-left: -1.5pc;
+    }
+
+    .secondrow{
+        width: 70vw;
+        margin-left: -2pc;
+    }
+
+
+    .third1{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: -2pc;
+    }
+
+    .trade,.risk{
+        width: 100vw;
+    }
+
+    .trade p{
+        width: 100%;
+    }
+
+    .risk p{
+        width: 100%;
+    }
+
+    .call{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 1.5pc;
+    }
+
+    .callimg img{
+        width: 80vw;
+    }
+    .log{
+        width: 100vw;
+    }
+
+    .log p{
+        width: 100%;
+    }
+
+    .geo{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 1.5pc;
+        margin-left: -0.2pc;
+    }
+
+    .fright{
+        width: 100%;
+    }
+}
+
+@media (max-width:320px){
+
+    .firstbox,.secondbox,.third,.fourth,.leftbox,.rightbox{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: space-around;
+        margin-bottom: 3pc;
+    }
+
+    .sbox,.secondboxup,.secondboxdown{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .second1{
+        width:110vw;
+        
+    }
+
+    .second1 h2{
+        font-size: 40px;
+    }
+
+    .secondb1,.secondb2{
+        width: 70vw;
+    }
+
+    .secondb2{
+        margin-left: -1.5pc;
+    }
+
+    .secondrow{
+        width: 70vw;
+        margin-left: -2pc;
+    }
+
+
+    .third1{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: -2pc;
+    }
+
+    .trade,.risk{
+        width: 100vw;
+    }
+
+    .trade p{
+        width: 100%;
+    }
+
+    .risk p{
+        width: 100%;
+    }
+
+    .call{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 1.5pc;
+    }
+
+    .callimg img{
+        width: 80vw;
+    }
+    .log{
+        width: 100vw;
+    }
+
+    .log p{
+        width: 100%;
+    }
+
+    .geo{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 1.5pc;
+        margin-left: -0.2pc;
+    }
+
+    .fright{
+        width: 100%;
+    }
+
+}
+
