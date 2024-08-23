@@ -93,11 +93,7 @@ nav{
         flex-direction: column;
         text-align: center;
     }
-    .nav-right a{
-        background-color: hsl(60, 3%, 8%);
-        color: #fff;
-    }
-
+    
     .nav-right a:hover{
         background-color: rgb(163, 160, 160);
     }

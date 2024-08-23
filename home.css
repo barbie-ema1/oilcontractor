@@ -409,7 +409,7 @@ body{
 @media (max-width:1440px) and (min-width:852px){
 
     .rightbox img{
-        height: 46.5vh;
+        height: 64.5vh;
     }
 
 
@@ -422,9 +422,7 @@ body{
         
         
     }
-    .firstbox,.secondbox{
-        height: fit-content;
-    }
+    
 
     .third{
         height: fit-content;
