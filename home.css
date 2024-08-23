@@ -418,9 +418,28 @@ body{
 @media (max-width:1108px) and (min-width:1024px){
 
     .rightbox img{
-        height: 94%;
+        height: 92.6%;
         
         
+    }
+    .firstbox,.secondbox{
+        height: fit-content;
+    }
+
+    .third{
+        height: fit-content;
+    }
+
+    .log{
+        height: fit-content;
+    }
+
+    .geo {
+        height: 30.5vh;
+        margin-left: 3pc;
+    }
+    .geo img{
+        margin-left: 1.5pc;
     }
 
 }
