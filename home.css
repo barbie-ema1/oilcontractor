@@ -55,7 +55,7 @@ body{
 }
 
 .rightbox img{
-    height: 65vh;
+    height: 63vh;
     width: 95%;
 }
 
@@ -205,6 +205,11 @@ body{
     justify-content: space-between;
 }
 
+.sbox{
+    display: flex;
+    flex-direction: row;
+}
+
 .secondb2 img{
     width: 20%;
     height:40%;
@@ -230,9 +235,13 @@ body{
     font-size: 18px;
 }
 
+.secondbox3{
+    margin-left: -6pc;
+    width: 70%;
+}
 
 .num4{
-    width: 35%;
+    width: 42%;
 }
 
 .secondnum{
@@ -293,6 +302,7 @@ body{
     flex-direction: row;
     width: 40%;
     justify-content: space-between;
+    margin-left: 2pc;
 }
 
 .callimg{
@@ -383,9 +393,43 @@ body{
     width: 45%;
 }
 
+@media (max-width:2560px) and (min-width:1582px){
 
-@media (max-width:1024px) and (min-width:738px){
+        .rightbox img{
+            height: 38vh;
+            
+        }
 
+        .secondbox3{
+            width: 35%;
+        }
+
+}
+
+@media (max-width:1440px) and (min-width:852px){
+
+    .rightbox img{
+        height: 46.5vh;
+    }
+
+
+}
+
+@media (max-width:1108px) and (min-width:1024px){
+
+    .rightbox img{
+        height: 94%;
+        
+        
+    }
+
+}
+
+/*@media (max-width:1024px) and (min-width:738px){
+
+    .home{
+        overflow-x: hidden;
+    }
     .firstbox{
         margin-bottom: 3pc;
     }
@@ -395,6 +439,16 @@ body{
     .rightbox img{
         height: 95vh;
         width: 80vh;
+    }
+
+    .sbox{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+
+    .secondbox3{
+        width: 30%;
     }
 
     .secondb1 h4{
@@ -408,6 +462,7 @@ body{
         font-size: 22px;
     }
 
+    
     .secondnum h2{
         font-size: 28px;
     }
@@ -420,14 +475,14 @@ body{
     }
 
     .geo {
-        height: 48.5vh;
+        height: 46vh;
         margin-left: 3pc;
     }
     .geo img{
         margin-left: 1.5pc;
     }
 
-}
+}*/
 
 @media (max-width:768px) and (min-width:554px){
 
@@ -512,6 +567,14 @@ body{
         margin-bottom: 3pc;
     }
 
+    .rightbox{
+        height: 80vh;
+    }
+
+    .rightbox img{
+        height: 80vh;
+    }
+
     .sbox,.secondboxup,.secondboxdown{
         display: flex;
         flex-direction: column;
@@ -532,6 +595,10 @@ body{
 
     .secondb2{
         margin-left: -1.5pc;
+    }
+
+    .secondbox3{
+        margin-left: 4pc;
     }
 
     .secondrow{
@@ -564,6 +631,7 @@ body{
         flex-direction: column;
         width: 100vw;
         margin-bottom: 1.5pc;
+        margin-left: -1pc;
     }
 
     .callimg img{
@@ -582,7 +650,7 @@ body{
         flex-direction: column;
         width: 100vw;
         margin-bottom: 1.5pc;
-        margin-left: -0.2pc;
+        margin-left: -1pc;
     }
 
     .fright{
@@ -601,6 +669,14 @@ body{
         margin-bottom: 3pc;
     }
 
+    .rightbox{
+        height: 80vh;
+    }
+
+    .rightbox img{
+        height: 80vh;
+    }
+
     .sbox,.secondboxup,.secondboxdown{
         display: flex;
         flex-direction: column;
@@ -623,9 +699,13 @@ body{
         margin-left: -1.5pc;
     }
 
+    .secondbox3{
+        margin-left: 4pc;
+    }
+
     .secondrow{
         width: 70vw;
-        margin-left: -2pc;
+        
     }
 
 
@@ -653,6 +733,7 @@ body{
         flex-direction: column;
         width: 100vw;
         margin-bottom: 1.5pc;
+        margin-left: -1pc;
     }
 
     .callimg img{
@@ -671,7 +752,7 @@ body{
         flex-direction: column;
         width: 100vw;
         margin-bottom: 1.5pc;
-        margin-left: -0.2pc;
+        margin-left: -1pc;
     }
 
     .fright{
