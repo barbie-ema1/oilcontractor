@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 90%;
+    overflow-y: hidden;
     
 }
 
@@ -103,7 +104,7 @@ button a{
 
     .container{
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
 
     .mainflex{

@@ -183,10 +183,34 @@ h3{
         flex-direction: column;
         width: 100%;
     }
+    .first-pflex h4{
+        margin-left: -0.3pc;
+    }
 
+    .first-pflex p{
+        margin-left: -0.3pc;
+        text-align: justify;
+    }
+    .second-pflex h4{
+        margin-left: -0.3pc;
+    }
+
+    .second-pflex p{
+        margin-left: -0.3pc;
+        text-align: justify;
+    }
+
+    .lastbox{
+        margin-left: -0.5pc;
+    }
+
+    .lastleft1 h2{
+        margin-left: 1pc;
+    }
     .lastleft1 img{
-        width: 100vw;
+        width: 90vw;
         height: 50vh;
+        margin-left: 1pc;
     }
 
     .lastleft2{

@@ -46,6 +46,22 @@ body{
     justify-content: space-between;
 }
 
+.leftbox1:hover{
+    
+    transform: scale(.9);
+     
+}
+
+.leftbox2:hover{
+    transform: scale(.9);
+    background-color: hsl(35, 86%, 78%)
+}
+
+.leftbox3:hover{
+    transform: scale(.9);
+    background-color: #86b7dd;
+}
+
 .rightbox{
     width: 65%;
     display: flex;
@@ -308,6 +324,11 @@ body{
 .callimg{
     width: 45%;
 }
+
+.callimg:hover{
+    transform: scale(.9);
+    
+}
 .callimg img{
     width: 100%;
     height: 100%;
@@ -318,6 +339,11 @@ body{
     background-color: #6EACDA;
     color: #fff;
     
+}
+
+.log:hover{
+    transform: scale(.9);
+    background-color: #86b7dd;
 }
 
 .log h3{
@@ -351,6 +377,11 @@ body{
 
 .geo h4{
     margin-left: 2.5pc;
+}
+
+.geo:hover{
+    transform: scale(.9);
+    background-color: hsl(35, 86%, 78%)
 }
 
 .fourth{
