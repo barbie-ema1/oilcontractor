@@ -604,7 +604,122 @@ body{
     }
 }
 
+
+@media (max-width:740px) and (min-width:360px){
+    .mainhead,.home{
+        margin: 0pc 0pc;
+    }
+
+    .firstbox,.secondbox,.third,.fourth,.leftbox,.rightbox{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: space-around;
+        margin-bottom: 3pc;
+    }
+
+    .rightbox{
+        height: 80vh;
+    }
+
+    .rightbox img{
+        height: 80vh;
+    }
+
+    .sbox,.secondboxup,.secondboxdown{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .second1{
+        width:110vw;
+        
+    }
+
+    .second1 h2{
+        font-size: 40px;
+    }
+
+    .secondb1,.secondb2{
+        width: 70vw;
+    }
+
+    .secondb2{
+        margin-left: -1.5pc;
+    }
+
+    .secondbox3{
+        margin-left: 4pc;
+    }
+
+    .secondrow{
+        width: 70vw;
+        margin-left: -2pc;
+    }
+
+
+    .third1{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: -2pc;
+    }
+
+    .trade,.risk{
+        width: 100vw;
+    }
+
+    .trade p{
+        width: 100%;
+    }
+
+    .risk p{
+        width: 100%;
+    }
+
+    .call{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 1.5pc;
+        margin-left: -1pc;
+    }
+
+    .callimg img{
+        width: 80vw;
+    }
+    .log{
+        width: 100vw;
+    }
+
+    .log p{
+        width: 100%;
+    }
+
+    .geo{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 1.5pc;
+        margin-left: -1pc;
+    }
+
+    .fright{
+        width: 100%;
+    }
+
+
+}
+
+
+
+
 @media (min-width:375px) and (max-width:554px){
+
+    .mainhead,.home{
+        margin: 0pc 0pc;
+    }
 
     .firstbox,.secondbox,.third,.fourth,.leftbox,.rightbox{
 
@@ -707,6 +822,10 @@ body{
 }
 
 @media (max-width:320px){
+
+    .mainhead,.home{
+        margin: 0pc 0pc;
+    }
 
     .firstbox,.secondbox,.third,.fourth,.leftbox,.rightbox{
 

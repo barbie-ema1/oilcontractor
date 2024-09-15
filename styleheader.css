@@ -76,6 +76,24 @@ nav{
     }
 }
 
+
+@media (min-width:430px) and (max-width:932px){
+    .mainhead,.home{
+        margin: 0pc 0pc;
+    }
+
+    .mainhead{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    
+}
+
+
+
 @media (max-width:425px) and (min-width:320px){
     .mainhead{
         width: 100%;
